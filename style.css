@@ -84,6 +84,24 @@ a.contact-button {
     font-size: 14px;
 }
 
+a.cv-button {
+    color: var(--color2);
+    border: 3px solid var(--color1);
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: var(--color1);
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.buttons-cv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 a.contact-button-portfolio {
     position: absolute; 
     right: 20px; 
